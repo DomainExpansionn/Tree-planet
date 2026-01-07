@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+a.active{
+    @apply border-b-2;
+    @apply border-green-500
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy indoor plant known for its ability to purify air by removing toxins. It thrives in low light, requires minimal watering, and is perfect for beginners or busy plant owners.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.m.321-1.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Monstera Deliciosa",
+    "category": "Decorative",
+    "price": 35,
+    "rating": 4.9,
+    "availableStock": 7,
+    "careLevel": "Medium",
+    "description": "A popular tropical houseplant with large, split leaves that add a bold aesthetic to any room. It prefers indirect light, moderate watering, and regular care for healthy growth.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.xl.025-1-0106.jpg",
+    "providerName": "Leaf & Living"
+  },
+  {
+    "plantId": 3,
+    "plantName": "Peace Lily",
+    "category": "Air Purifier",
+    "price": 22,
+    "rating": 4.6,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "An elegant flowering plant that improves indoor air quality while adding beauty. It grows well in low to medium light and signals watering needs by gently drooping its leaves.",
+    "image": "https://radhakrishnaagriculture.in/cdn/shop/files/peacelily.jpg?v=1709184309",
+    "providerName": "GreenNest Supplies"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Aloe Vera",
+    "category": "Medicinal",
+    "price": 15,
+    "rating": 4.7,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "A succulent plant valued for its soothing gel used in skincare and minor burns. It requires bright light, well-drained soil, and infrequent watering to remain healthy.",
+    "image": "https://www.rosenbote.de/images/product_images/info_images/aloe-vera-1000.jpg",
+    "providerName": "NatureCare Plants"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Decorative",
+    "price": 40,
+    "rating": 4.5,
+    "availableStock": 5,
+    "careLevel": "Hard",
+    "description": "A stylish indoor tree with large glossy leaves that enhances modern interiors. It requires consistent watering, bright indirect light, and stable conditions to prevent leaf drop.",
+    "image": "https://www.mcpalms.de/media/catalog/product/cache/92552474dd6161374ea52946e60fef94/1/2/12217_a.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 6,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 16,
+    "rating": 4.6,
+    "availableStock": 18,
+    "careLevel": "Easy",
+    "description": "A fast-growing plant with arching leaves that helps remove indoor pollutants. It adapts easily to various lighting conditions and produces baby plants for propagation.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.m.323-1.jpg",
+    "providerName": "Leaf & Living"
+  },
+  {
+    "plantId": 7,
+    "plantName": "Rubber Plant",
+    "category": "Decorative",
+    "price": 28,
+    "rating": 4.7,
+    "availableStock": 9,
+    "careLevel": "Medium",
+    "description": "A robust plant with thick, glossy leaves that adds a bold and elegant look to indoor spaces. It prefers bright indirect light and occasional watering for optimal growth.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.s.m.025-1-3005.jpg",
+    "providerName": "GreenNest Supplies"
+  },
+  {
+    "plantId": 8,
+    "plantName": "ZZ Plant",
+    "category": "Low Maintenance",
+    "price": 20,
+    "rating": 4.9,
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "description": "A nearly indestructible indoor plant that tolerates low light and infrequent watering. Its shiny leaves and slow growth make it ideal for offices and apartments.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.xl.053-1.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 9,
+    "plantName": "Herb Basil Plant",
+    "category": "Edible",
+    "price": 12,
+    "rating": 4.5,
+    "availableStock": 25,
+    "careLevel": "Medium",
+    "description": "A fragrant culinary herb commonly used in cooking for its fresh flavor. It grows best in sunny locations with regular watering and benefits from frequent harvesting.",
+    "image": "https://www.mcpalms.de/media/catalog/product/cache/92552474dd6161374ea52946e60fef94/1/2/12217_a.jpg",
+    "providerName": "NatureCare Plants"
+  },
+  {
+    "plantId": 10,
+    "plantName": "Calathea Orbifolia",
+    "category": "Decorative",
+    "price": 32,
+    "rating": 4.6,
+    "availableStock": 6,
+    "careLevel": "Hard",
+    "description": "A stunning ornamental plant known for its large patterned leaves that move with light changes. It requires high humidity, indirect light, and consistent care to thrive.",
+    "image": "https://www.mcpalms.de/media/catalog/product/cache/92552474dd6161374ea52946e60fef94/1/2/12217_a.jpg",
+    "providerName": "Leaf & Living"
+  }
+]

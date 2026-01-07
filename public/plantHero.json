@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Eat Green. Live Clean.",
+    "subtitle": "A healthier life starts with plants",
+    "image": "https://www.rosenbote.de/images/product_images/info_images/aloe-vera-1000.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Powered by Plants",
+    "subtitle": "Fuel your body naturally",
+    "image": "https://www.mcpalms.de/media/catalog/product/cache/92552474dd6161374ea52946e60fef94/1/2/12217_a.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Nature on Your Plate",
+    "subtitle": "Fresh, ethical, sustainable",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.m.323-1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Plant-Based Living",
+    "subtitle": "Better food. Better future.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.s.m.025-1-3005.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Good for You & Earth",
+    "subtitle": "Small choices. Big impact.",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.xl.053-1.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Pure. Green. Honest.",
+    "subtitle": "Food that respects nature",
+    "image": "https://images.plnts.com/optimize/q:80/w:1080/plain/https://webshop.plnts.com/media/catalog/product/cache/aa5d334f459227518b6c3cf7ea9d29ed/p/l/pl.xl.053-1.jpg"
+  }
+]
