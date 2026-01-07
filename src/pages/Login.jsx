@@ -1,12 +1,17 @@
-import React, { useContext, useRef } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../context/AuthContext';
+import { Eye, EyeOff } from 'lucide-react';
+import { toast, ToastContainer } from 'react-toastify';
 
 const Login = () => {
-  const { signIn, resetPassword } = useContext(AuthContext);
+  const { signIn, resetPassword, signInWithGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
   const emailRef = useRef();
+
+    const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
 
   const handleSignIn = (e) => {
     e.preventDefault();
@@ -17,26 +22,17 @@ const Login = () => {
       .then(() => {
         navigate(location.state || "/");
       })
-      .catch(error => {
-        alert(error.message);
-      });
+      .catch(error => toast(error.message));
   };
 
  
-  const handleForgotPassword = () => {
-    const email = emailRef.current.value;
-
-    if (!email) {
-      alert("Please enter your email first");
-      return;
-    }
-
-    resetPassword(email)
+  const handleGoogleLogin = () => {
+    signInWithGoogle()
       .then(() => {
-        alert("Password reset email sent! Check your inbox.");
+        navigate(location.state || "/"); 
       })
-      .catch((error) => {
-        alert(error.message);
+      .catch(error => {
+        toast(error.message);
       });
   };
 
@@ -60,18 +56,37 @@ const Login = () => {
             />
 
             <label className="label">Password</label>
-            <input
-              type="password"
-              name="password"
-              className="input"
-              placeholder="Password"
-              required
-            />
+            <div className="relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                className="input w-full pr-10"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+
+              <button
+                type="button"
+                className="absolute right-3 top-3 text-gray-500"
+                onClick={() => setShowPassword(!showPassword)}
+              >
+                {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+              </button>
+            </div>
 
             <div>
               <button
                 type="button"
-                onClick={handleForgotPassword}
+                onClick={() => {
+                  const email = emailRef.current.value;
+                  if (!email) return alert("Enter email first");
+                  resetPassword(email)
+                    .then(() =>
+                      alert("Password reset email sent!")
+                    )
+                    .catch(err => alert(err.message));
+                }}
                 className="link link-hover text-sm"
               >
                 Forgot password?
@@ -82,13 +97,26 @@ const Login = () => {
               Login
             </button>
 
-            <p>
+          
+            <div className="divider">OR</div>
+
+         
+            <button
+              type="button"
+              onClick={handleGoogleLogin}
+              className="btn btn-outline w-full"
+            >
+              Continue with Google
+            </button>
+
+            <p className="mt-2">
               Don't have an account?{" "}
               <Link to="/auth/register" className="text-blue-500 underline">
                 Register
               </Link>
             </p>
           </fieldset>
+          <ToastContainer/>
         </form>
       </div>
     </div>
