@@ -28,6 +28,7 @@ const Navbar = () => {
       </ul>
     </div>
     <a className=" text-xl font-bold">TreePlanet</a>
+    
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 flex gap-8">
