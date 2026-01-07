@@ -33,7 +33,7 @@ const Router = createBrowserRouter([
                     <MyProfile />
                 </PrivateRoute>
             },
-           
+
         ]
     },
     {
@@ -50,13 +50,13 @@ const Router = createBrowserRouter([
             },
         ]
     },
-     {
-                path: '/details/:id',
-                element: <PrivateRoute>
-                    <PlantCardDetails/>
-                </PrivateRoute>,
-                loader: ()=>fetch('/plantData.json')
-            }
+    {
+        path: '/details/:id',
+        element: <PrivateRoute>
+            <PlantCardDetails />
+        </PrivateRoute>,
+        loader: () => fetch('/plantData.json')
+    }
 ])
 
 export default Router;

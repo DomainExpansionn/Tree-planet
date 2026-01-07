@@ -15,7 +15,7 @@ const Navbar = () => {
     <NavLink to={'/myprofile'}>My Profile</NavLink>
     </>
     return (
-        <div className=" nav navbar bg-base-100 shadow-sm">
+        <div className=" px-8 navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,11 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
     {
-        user?<button onClick={handleLogOut} className='btn'>Log out</button>:<Link to={'/auth/login'} className="btn">LogIn</Link>
+        user?<button onClick={handleLogOut} className='btn'>Log out</button>:
+        <div className='flex gap-3'>
+        <Link to={'/auth/login'} className="btn">LogIn</Link>
+        <Link to={'/auth/register'} className="btn">Register</Link>
+        </div>
     }
     
   </div>
