@@ -27,7 +27,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className=" text-xl font-bold">TreePlanet</a>
+    <Link to={'/'} className=" text-xl font-bold">TreePlanet</Link>
     
   </div>
   <div className="navbar-center hidden lg:flex">
